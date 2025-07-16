@@ -1,0 +1,77 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:background="@color/bg">
+
+    <TextView
+        android:id="@+id/texttopic2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Student Registration"
+        android:layout_centerHorizontal="true"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:layout_marginTop="40dp"
+        android:textColor="@android:color/holo_orange_dark" />
+
+    <EditText
+        android:id="@+id/editFirstName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/texttopic2"
+        android:layout_marginTop="75dp"
+        android:hint="First Name" />
+
+    <EditText
+        android:id="@+id/editLastName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/editFirstName"
+        android:layout_marginTop="10dp"
+        android:hint="Last Name" />
+
+    <EditText
+        android:id="@+id/editAge"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/editLastName"
+        android:hint="Age"
+        android:inputType="number"
+        android:layout_marginTop="10dp"/>
+
+    <EditText
+        android:id="@+id/editSex"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/editAge"
+        android:hint="Sex"
+        android:layout_marginTop="10dp"/>
+
+    <EditText
+        android:id="@+id/editAddress"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/editSex"
+        android:hint="Address"
+        android:layout_marginTop="10dp"/>
+
+    <EditText
+        android:id="@+id/editMobile"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/editAddress"
+        android:hint="Mobile Number"
+        android:inputType="phone"
+        android:layout_marginTop="10dp"/>
+
+    <Button
+        android:id="@+id/buttonSave"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/editMobile"
+        android:layout_centerHorizontal="true"
+        android:text="Save"
+        android:layout_marginTop="70dp"
+        android:backgroundTint="@android:color/holo_orange_dark"/>
+</RelativeLayout>

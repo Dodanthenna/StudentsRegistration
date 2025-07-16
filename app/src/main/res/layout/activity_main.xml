@@ -1,0 +1,35 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg">
+
+    <TextView
+        android:id="@+id/textTopic"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="Students Details"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:textColor="@android:color/holo_orange_dark"
+        android:layout_marginTop="40dp" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/textTopic"
+        android:layout_marginTop="8dp"
+        android:layout_margin="15dp"/>
+
+    <Button
+        android:id="@+id/buttonAddStudent"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:text="+"
+        android:textSize="20dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_margin="16dp"
+        android:backgroundTint="@android:color/holo_orange_dark" />
+</RelativeLayout>
