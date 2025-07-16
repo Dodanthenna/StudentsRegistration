@@ -34,7 +34,7 @@ An Android application built using Java and SQLite to manage school student reco
 
 ## 📸 Screenshots
 
-(Add screenshots or a screen recording here)
+![Add Student Screen](screenshots/ss1.jpg)
 
 ---
 
