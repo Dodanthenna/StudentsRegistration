@@ -56,9 +56,13 @@ Export/Import data feature
 Cloud database integration (Firebase)
 
 ## 👨‍💻 Author
-Chamika Dilshan
-BICT (Hons) | Specialized in Network & Security Technology
-LinkedIn Profile https://www.linkedin.com/in/chamika-dilshan-83a987264?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BTIm6nvFBScGS6apLnzZAHw%3D%3D
+
+**Chamika Dilshan**  
+
+BICT (Hons) | Specialized in Network & Security Technology  
+
+[Connect on LinkedIn](https://www.linkedin.com/in/yourprofile)
+
 
 
 
