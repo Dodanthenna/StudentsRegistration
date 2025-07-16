@@ -48,6 +48,8 @@ An Android application built using Java and SQLite to manage school student reco
 
 3. Build and run the app on an emulator or real device (API level 24+ recommended).
 
+---
+
 ## 📌 Future Improvements
 Search and filter functionality
 
@@ -55,13 +57,15 @@ Export/Import data feature
 
 Cloud database integration (Firebase)
 
+---
+
 ## 👨‍💻 Author
 
 **Chamika Dilshan**  
 
 BICT (Hons) | Specialized in Network & Security Technology  
 
-[Connect on LinkedIn](https://www.linkedin.com/in/yourprofile)
+[Connect on LinkedIn](https://www.linkedin.com/in/chamika-dilshan-83a987264?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BqBzT1g4PQEObzdHG8fIZVg%3D%3D)
 
 
 
